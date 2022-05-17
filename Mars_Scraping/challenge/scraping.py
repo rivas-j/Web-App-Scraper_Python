@@ -21,6 +21,11 @@ def scrape_all():
           "last_modified": dt.datetime.now()
     }
 
+    hemisphere_data = {
+        
+
+    }
+
     # Stop webdriver and return data
     browser.quit()
 
@@ -100,6 +105,8 @@ def mars_facts():
     
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html(classes="table table-striped")
+
+
 
 
 if __name__ == "__main__":
