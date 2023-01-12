@@ -1,55 +1,40 @@
-<!--- 
-Use Case: This readme template is designed for readable documentation of portfolio projects
-File Structure: Place this readme in the main project folder, make sure there is an images folder containing all screenshots for the image links to properly work
---->
-
-# Project Name
+# Web Scraping Live Dashboard with Python and MongoDB
 
 <div align="center">
-    <img src=images/image.jpg>
+    <img src=images/webapp.png>
 </div>
 
-## <div align="center">Short blurb describing what the tool does</div>
+## <div align="center">Use Python, MongoDB and HTML a Web-Based Dashboard that Scrapes Web Articles,</div>
+## <div align="center">Images and Other Information in order to Display as a Live Feed</div>
 
 <p align="center">
 <a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
 <a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
-<a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
-<a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
-<a href="#results">Results</a> &nbsp;&bull;&nbsp;
-<a href="#summary">Summary</a>
+<a href="#tools-used">Tools Used</a>
 </p>
 
 # <div align="center">Goals</div>
 
-What should be true after this project is implemented? The objective is to demonstrate the project's value. Edit for clarity and remove any language specific to curriculum (i.e. fictional names, narratives). Make the report seem like a case study, not an assignment. Include a high-level overview of the analysis so that recruiters with limited technical knowledge can understand what your project is about without drilling down.  The key is to make everything easy for employers so they can review more of your work.
+She's really eager to create her application, and she has a list of websites she plans to use for scraping.
 
-Sample: Puppy Analysis answers the question, how many puppies were adopted from shelters across the United States during the 2020 Covid-19 pandemic. Observes a total number of dogs adopted, breed demographics, and the number of dogs adopted by a state.”
+She's really excited about actually scraping live data. The script we're building is designed to scrape the most recent data—that means that each time we run the script, we'll pull the newest data available. As long as the website continues to be updated with new articles, which is likely, we'll have a constant influx of new information at our fingertips. The data Robin wants to collect from this particular website is the most recent news article along with its summary. Remember, the code for this will eventually be used in an application that will scrape live data with the click of a button—this site is dynamic and the articles will change frequently, which is why Robin is removing the manual task of retrieving each new article.
 
 
 # <div align="center">Dataset</div>
 
-High level explanation of data source
+We'll use our web application to scrape news articles and high-quality images, a collection of facts is a solid addition to her web app. from three different websites, store them in MongoDB, and display them in our webpage via Flask
 
-- [Data Set File Name:](data/data_source.format) Explain source of file, size of dataset and format
+- [Red Planet Science:](https://redplanetscience.com/) Our app will extract Mars news articles from this website
+- [Space Images Mars:](https://spaceimages-mars.com/) Our app will extract featured images from the Jet Propulsion Laboratory
+- [Space Images Mars:](https://galaxyfacts-mars.com/) Our app will extract featured images from the Jet Propulsion Laboratory
 
 # <div align="center">Tools Used</div>
-- **Tool 1:** Tool purpose
-- **Tool 2:** Tool purpose
+- **Python:** Programming language used to build automated auditing solution
+    - **Splinter:** Python tool that will automate our web browser as we begin scraping
+    - **Beautiful Soup:** Python package used for parsing HTML and XML documents
+    - **Flask:** Python tool used for developing web applications
+- **MongoDB:** NoSQL database used to store unstructrued data, such as images
+- **HTML:** Hypertext Markup Language used to build and design webpages
+- **Jupyter Notebook:** Open source web based application used to run our python code
 
-
-# <div align="center">Analysis and Challenges</div>
-In depth detail on steps taken to solve problem, including tools and how we modeled the data, include screenshots and code snippets
-
-![Image title](images/image.jpg)
-
-```
-Code snippet
-```
-
-# <div align="center">Results</div>
-
-
-# <div align="center">Summary</div>
-
-[Back to top](#project-name)
+[Back to top](#web-scraping-live-dashboard-with-python-and-mongoDB)
