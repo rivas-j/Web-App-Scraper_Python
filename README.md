@@ -4,8 +4,8 @@
     <img src=images/webapp.png>
 </div>
 
-## <div align="center">Use Python, MongoDB and HTML to build a Web Application that Scrapes the latest Internet Articles,</div>
-## <div align="center">Images and Relevant Information to Display Live</div>
+### <div align="center">Use Python, MongoDB and HTML to build a Web Application that Scrapes the Latest Internet Articles,</div>
+### <div align="center">Images and Relevant Information to Display Live</div>
 
 <p align="center">
 <a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
