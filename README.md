@@ -4,8 +4,8 @@
     <img src=images/webapp.png>
 </div>
 
-## <div align="center">Use Python, MongoDB and HTML a Web-Based Dashboard that Scrapes Web Articles,</div>
-## <div align="center">Images and Other Information in order to Display as a Live Feed</div>
+## <div align="center">Use Python, MongoDB and HTML to build a Web Application that Scrapes the latest Internet Articles,</div>
+## <div align="center">Images and Relevant Information to Display Live</div>
 
 <p align="center">
 <a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
@@ -15,9 +15,11 @@
 
 # <div align="center">Goals</div>
 
-She's really eager to create her application, and she has a list of websites she plans to use for scraping.
+We're looking to build a live webapp by scraping the below list of websites. The script we're building is designed to scrape the most recent data. Each time we run the script, we'll pull the newest data available. As long as the website continues to be updated with new articles, we'll have a constant influx of new information at our fingertips. The data Robin wants to collect from this particular website is the most recent news article along with its summary. We plan to achieve this by:
 
-She's really excited about actually scraping live data. The script we're building is designed to scrape the most recent data—that means that each time we run the script, we'll pull the newest data available. As long as the website continues to be updated with new articles, which is likely, we'll have a constant influx of new information at our fingertips. The data Robin wants to collect from this particular website is the most recent news article along with its summary. Remember, the code for this will eventually be used in an application that will scrape live data with the click of a button—this site is dynamic and the articles will change frequently, which is why Robin is removing the manual task of retrieving each new article.
+- using python to pull data from multiple websites, 
+- store the scraped data in MongoDB, a NoSQL database, 
+- then present the collected data in a central location: a Flask webpage built with HTML.
 
 
 # <div align="center">Dataset</div>
